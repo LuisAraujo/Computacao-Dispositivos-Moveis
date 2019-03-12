@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        >
+
+    <TextView
+            android:text="Cadastro de Produtos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="30dp"/>
+
+    <TextView
+            android:text="Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint = "Digite o Nome do produto"
+            android:id="@+id/inpnome"
+    />
+
+    <TextView
+            android:text="Descrição"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:hint="Digite a Descrição"
+            android:id="@+id/inpdesc"
+            android:inputType="textMultiLine"
+            android:ems="10"
+    />
+    <TextView
+            android:text="Preço"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint = "Digite o Preço"
+            android:id="@+id/inppreco"
+    />
+    <TextView
+            android:text="Categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnercategorias"
+    />
+
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "Cadastrar"
+            android:background="#E91E63"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btcadastrar"
+    />
+
+
+</LinearLayout>

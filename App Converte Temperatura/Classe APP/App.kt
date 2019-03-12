@@ -2,7 +2,7 @@ class App(){
 
     fun convertToCelcius(valueFahrenheit: Double): Double{
 
-        var valueCalsius: Double =  valueFahrenheit/ (9/5) - 32
+        var valueCalsius: Double =  (valueFahrenheit- 32) / (9/5) 
         return  valueCalsius
     }
 
