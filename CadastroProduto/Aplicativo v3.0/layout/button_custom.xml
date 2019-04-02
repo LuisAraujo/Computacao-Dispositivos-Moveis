@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="343dp"
+                android:text="produto_nome"
+                android:id="@+id/inptext_del"
+        />
+
+        <Button
+                android:layout_height="wrap_content"
+
+                android:background="@android:drawable/ic_delete"
+                android:id="@+id/btprod_del"
+                android:layout_width="50dp"/>
+    </LinearLayout>
+</LinearLayout>
